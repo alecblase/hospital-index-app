@@ -1,0 +1,17 @@
+year,characteristic,char_value,core,pathfinder,friction
+2021,size,small,10,15,20
+2022,size,small,11,17,23
+2023,size,small,12,19,26
+2024,size,small,13,21,29
+2021,size,medium,14,23,32
+2022,size,medium,15,25,35
+2023,size,medium,16,27,38
+2024,size,medium,17,29,41
+2021,size,large,18,31,44
+2022,size,large,19,33,47
+2023,size,large,20,35,50
+2024,size,large,21,37,53
+2021,Overall,Overall,10,15,20
+2022,Overall,Overall,11,17,23
+2023,Overall,Overall,12,19,26
+2024,Overall,Overall,13,21,29
