@@ -175,9 +175,9 @@ p<-ggplot(df_bars, aes(y = hospital_percent, x = bin)) +
       label = paste0("Mean: ", round(weighted_mean), "%")
     ),
     color = "red",
-    angle = 90,
-    vjust = -0.5,
-    hjust = -2
+    angle = 0,
+    vjust = -12,
+    hjust = 1.1
   ) + 
   labs(title = paste(graphTitle, "by", legendTitle),
        x = "Score Range",
