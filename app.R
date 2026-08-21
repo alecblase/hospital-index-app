@@ -8,6 +8,9 @@ library(shinyjs)
 library(DT)
 library(dplyr)
 
+
+setwd("C:/Users/alec.blase/OneDrive - HHS Office of the Secretary/Desktop/hospital-index-app")
+
 source("graphs.R")
 hello_world()
 
@@ -17,6 +20,9 @@ load("data/histogram_df.RData")
 load("data/index_items_df.RData")
 load("data/IndexComponentCrosswalk.RData")
 load("data/ItemComponentCrosswalk.RData")
+
+# subset distribution dataset for only most current year
+distributionSummaryFinal <- subset(distributionSummaryFinal, year=="2025")
 
 ui <- page_sidebar(
   shinyjs::useShinyjs(), # newly added
