@@ -9,8 +9,6 @@ library(DT)
 library(dplyr)
 
 
-setwd("C:/Users/alec.blase/OneDrive - HHS Office of the Secretary/Desktop/hospital-index-app")
-
 source("graphs.R")
 hello_world()
 
